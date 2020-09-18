@@ -8,6 +8,7 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ProductService } from './product.service';
 import { SquaresComponent } from './squares/squares.component';
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SquaresComponent } from './squares/squares.component';
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    SquaresComponent
+    SquaresComponent,
+    ProductTracklistingComponent
   ],
   imports: [
     BrowserModule,
